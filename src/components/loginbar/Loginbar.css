@@ -1,0 +1,26 @@
+.loginbar-bg{
+    background-color: var(--dark-brown);
+    padding: 0.5rem;
+    color: var(--color-white);
+    position: sticky;
+}
+
+.loginbar-contact{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.loginbar-contact .u-text-small{
+    display: flex;
+    align-items: center;
+}
+
+.loginbar-number{
+    padding-left: 35px;
+}
+
+@media screen and () {
+    
+}
