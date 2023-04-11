@@ -18,7 +18,7 @@
   --dark-brown: #9D573E;
   --light-brown: rgba(179, 113, 97, 0.6);
 
-  --linear-text-color: linear-gradient(124.6deg, rgba(216, 1, 1, 0.91) 16.2%, rgba(47, 0, 180, 0.8775) 52.56%, #8F00A7 85.34%);
+  --linear-text: linear-gradient(124.6deg, rgba(216, 1, 1, 0.91) 16.2%, rgba(47, 0, 180, 0.8775) 52.56%, #8F00A7 85.34%);
 }
 
 * {

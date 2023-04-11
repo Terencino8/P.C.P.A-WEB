@@ -2,7 +2,6 @@
     background-color: var(--dark-brown);
     padding: 0.5rem;
     color: var(--color-white);
-    position: sticky;
 }
 
 .loginbar-contact{
@@ -21,6 +20,15 @@
     padding-left: 35px;
 }
 
-@media screen and () {
-    
+
+@media screen and (max-width:650px) {
+    .loginbar-contact{
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+    }
+
+   .loginbar-contact .u-text-small{
+        display: none;
+   } 
 }

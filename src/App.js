@@ -1,5 +1,6 @@
 import './App.css';
 import { Loginbar, Navbar, Header, } from "./components/index"
+import "./css/utilis.css"
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
             <Navbar/>
             <Header/>
         </header>
+
       
 
 
