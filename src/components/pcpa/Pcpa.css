@@ -1,6 +1,6 @@
 .pcpa{
     display: flex;
-
+    height: 100%;
 }
 
 .pcpa-left{
@@ -32,7 +32,7 @@
 @media screen and (max-width:700px) {
     .pcpa{
         display: block;
-        height: 100vh;
+        
     
     }
 
@@ -43,7 +43,17 @@
     
     }
 
-    .pcpa-left img{
+    .pcpa-left{
         margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 100px;
     }
+
+    .pcpa-title{
+      display: flex;
+      justify-content: center;
+    }
+    
 }

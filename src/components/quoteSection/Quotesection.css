@@ -1,0 +1,75 @@
+#quotesection{
+    background-image: url(../../assets/homebackground2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.quotesection{
+    width: 70%;
+    height: 60vh;
+    background: #00000071;
+    /* mix-blend-mode: hard-light;
+    opacity: 0.5; */
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+
+#quotesection img{
+    position: absolute;
+    width: 15%;
+    border-radius: 10px;
+    left: 10%;
+    top: 10%;
+    
+}
+
+.quotesection .u-text-light{
+    width: 70%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.377);
+    margin-bottom: 20px;
+
+}
+
+.quotesection h1{
+    color: var(--color-white);
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:700px) {
+    #quotesection{
+        background-image: url(../../assets/quotesectionbg.png);
+        display: flex;
+        align-items: center;
+
+    }
+
+    .quotesection{
+        width: 80%;
+        height: 70vh;
+    }
+
+    #quotesection img{
+        display: none;
+    }
+
+
+}

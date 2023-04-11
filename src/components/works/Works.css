@@ -1,0 +1,44 @@
+.works{
+    display: flex;
+
+}
+
+.works-left{
+    flex: 1;
+}
+.works-left img{
+    width: 80%;
+}
+
+.works-right{
+    flex: 1;
+    margin-top: 100px;
+
+}
+
+.works-label{
+    color:  var(--light-purple);
+}
+
+.works-right h1{
+    color:#000;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+
+.works-right p{
+    margin-bottom: 30px;
+}
+
+
+@media screen and (max-width:700px) {
+    .works{
+        display: block;
+    }
+
+    .works-right{
+        margin-top: 0px;
+    
+    }
+}

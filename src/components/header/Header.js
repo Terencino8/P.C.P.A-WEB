@@ -11,7 +11,7 @@ const Header = () => {
             <h1>
               <span>Welcome to Precious Child Palace Academy </span>
             </h1>
-            <p><i>A Something that never cracks in a lifetime</i></p>
+            <p><i>We lay a Strong Foundation that never cracks in a lifetime</i></p>
             <div className="header-cta">
               <Button text={"Apply Now"} btnClass={"btn-red"} href={"#addmission"}/>
 

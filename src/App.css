@@ -1,7 +1,6 @@
 .header-bg{
   background-image: url(./assets/homepagebackground11.png);
  /* background: radial-gradient(var(--light-brown), var(--color-white)); */
-  object-fit: cover;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
