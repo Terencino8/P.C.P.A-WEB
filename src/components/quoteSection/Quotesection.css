@@ -2,8 +2,8 @@
     background-image: url(../../assets/homebackground2.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 90%;
-    min-height: 100vh;
+    /* height: 90%;
+    min-height: 100vh; */
     display: flex;
     align-items: center;
     background-attachment: fixed;

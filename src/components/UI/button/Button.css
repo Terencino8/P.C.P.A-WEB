@@ -21,6 +21,9 @@ a.btn{
     padding: 10px 10px;
  
 }
+a.btn:hover{
+    color: var(--color-white);
+}
 
 a.btn-dark-purple{
     border:none;
@@ -30,6 +33,7 @@ a.btn-dark-purple{
 a.btn-light-purple{
     border:none;
     background: var( --light-purple);
+    cursor: pointer;
 }
 
 a.btn-transparent-border{
