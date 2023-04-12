@@ -1,13 +1,21 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import "./Header.css"
 import Button from '../UI/button/Button'
 import "../UI/button/Button.css"
-import sampleimg2 from "../../assets/img2.png"
+
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+
 const Header = () => {
+  useEffect (() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, [])
   return (
     <section id='header'>
       <div className="container header">
-        <div className="header-left">
+        <div className="header-left" data-aos="fade-right">
             <h1>
               <span>Welcome to Precious Child Palace Academy </span>
             </h1>
@@ -18,7 +26,7 @@ const Header = () => {
               <Button text={"Learn More"} btnClass={"btn-transparent-border"} href={"#about"}/>
             </div>
         </div>
-        <div className="header-right">
+        <div className="header-right"  data-aos="fade-left">
 
         </div>
       </div>

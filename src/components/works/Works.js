@@ -1,16 +1,24 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import "./Works.css"
 import workImg from "../../assets/img2.png"
 import Button from '../UI/button/Button'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 const Works = () => {
+    useEffect (() => {
+        AOS.init({
+          duration: 1000,
+        });
+      }, [])
+
   return (
     <section id='works'>
         <div className="container works">
-            <div className="works-left">
+            <div className="works-left" data-aos="fade-right">
                 <img src={workImg} alt="" />
             </div>
-            <div className="works-right">
+            <div className="works-right" data-aos="fade-left">
                 <h2 className="works-label">
                     Our Works
                 </h2>

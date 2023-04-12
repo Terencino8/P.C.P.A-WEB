@@ -5,3 +5,5 @@ export {default as Pcpa} from './pcpa/Pcpa';
 export {default as Quotesection} from './quoteSection/Quotesection';
 export {default as Works} from './works/Works';
 export {default as Quotesection2} from './quoteSeection2/Quotesection2';
+export {default as Pcpablog} from './pcpaBlog/Pcpablog';
+export {default as Footer} from './footer/Footer';

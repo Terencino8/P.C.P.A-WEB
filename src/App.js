@@ -1,5 +1,5 @@
 import './App.css';
-import { Loginbar, Navbar, Header, Pcpa, Quotesection, Works, Quotesection2} from "./components/index"
+import { Loginbar, Navbar, Header, Pcpa, Quotesection, Works, Quotesection2, Pcpablog, Footer} from "./components/index"
 
 
 import "./css/utilis.css"
@@ -18,6 +18,8 @@ function App() {
         <Quotesection/>
         <Works/>
         <Quotesection2/>
+        <Pcpablog/>
+        <Footer/>
 
 
 

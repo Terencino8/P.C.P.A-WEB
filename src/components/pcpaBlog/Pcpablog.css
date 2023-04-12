@@ -1,0 +1,78 @@
+#pcpablog{
+    background-image: url(../../assets/homepagebackground4.png);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+
+.pcpablog{
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pcpablog-title{
+    background: var(--color-white);
+    width: 100%;
+    position: absolute;
+    left: 0;top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.pcpablog-title-small{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: red;
+}
+
+.pcpablog-title-big{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: var(--linear-text);
+}
+
+.pcpablog-body{
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width:800px) {
+    #pcpablog{
+        padding: 0;
+        background-image: url(../../assets/homepagebgphonelast.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+        width: 100%;
+    }
+
+    .pcpablog{
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+
+    .pcpablog-title{
+        position: relative;
+    }
+
+    
+    .pcpablog-body{
+      display: flex;      flex-direction: column;
+      justify-content: baseline;
+      min-height: 45vh;
+        padding: 10px;
+        position: relative;
+
+    }
+}
