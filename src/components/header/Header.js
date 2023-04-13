@@ -21,14 +21,12 @@ const Header = () => {
             </h1>
             <p><i>We lay a Strong Foundation that never cracks in a lifetime</i></p>
             <div className="header-cta">
-              <Button text={"Apply Now"} btnClass={"btn-red"} href={"#addmission"}/>
+              <Button text={"Apply Now"} btnClass={"btn-red"} to={"/admissions"}/>
 
-              <Button text={"Learn More"} btnClass={"btn-transparent-border"} href={"#about"}/>
+              <Button text={"Learn More"} btnClass={"btn-transparent-border"} to={"/about"}/>
             </div>
         </div>
-        <div className="header-right"  data-aos="fade-left">
-
-        </div>
+  
       </div>
     </section>
   )

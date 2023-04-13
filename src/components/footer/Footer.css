@@ -59,7 +59,7 @@
     justify-content: center;
     padding: 20px;
     margin-top: 20px;
-    width: 100vw;
+    /* width: 100vw; */
 }
 
 .footer-social-icons{
@@ -88,8 +88,6 @@
 @media screen and (max-width:800px) {
     .footer{
         flex-direction: column;
-        margin-bottom:0px;
-        width: 100vw;
     }
     .footer hr{
         width: 65%;

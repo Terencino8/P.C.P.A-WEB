@@ -54,12 +54,16 @@
 
 
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:800px) {
     #quotesection{
         background-image: url(../../assets/quotesectionbg.png);
         display: flex;
         align-items: center;
-
+        justify-content: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
     }
 
     .quotesection{

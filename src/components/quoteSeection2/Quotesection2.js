@@ -16,8 +16,8 @@ const Quotesection2 = () => {
 
   return (
     <section id='quotesection2'>
-        <div className="container quotesection2" data-aos="fade-left">
-            <img src={logo} alt="logo" data-aos="fade-up" />
+        <div className="container quotesection2">
+            <img src={logo} alt="logo"/>
 
 
 

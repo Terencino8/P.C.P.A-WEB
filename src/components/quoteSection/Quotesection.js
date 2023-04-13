@@ -16,8 +16,8 @@ const Quotesection = () => {
     <section id='quotesection'>
 
 
-        <div className="container quotesection" data-aos="fade-down">
-         <img src={studentImg} alt="students" data-aos="fade-left"/>
+        <div className="container quotesection" data-aos="fade-right">
+         <img src={studentImg} alt="students" />
             
             <p className="u-text-small u-text-light ">
             the regard that something is held to deserve; the importance, worth, or usefulness of something."your support is of great value" the regard that something is held to deserve; the importance, worth, or usefulness of something."your support is of great value"

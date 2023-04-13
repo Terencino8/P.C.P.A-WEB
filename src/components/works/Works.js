@@ -15,18 +15,18 @@ const Works = () => {
   return (
     <section id='works'>
         <div className="container works">
-            <div className="works-left" data-aos="fade-right">
+            <div className="works-left"data-aos="fade-right">
                 <img src={workImg} alt="" />
             </div>
-            <div className="works-right" data-aos="fade-left">
-                <h2 className="works-label">
+            <div className="works-right">
+                <h2 className="works-label" data-aos="fade-down">
                     Our Works
                 </h2>
-                <h1>Mission Statement</h1>
+                <h1 data-aos="fade-right">Mission Statement</h1>
                 <p className="u-text-small">
                 The Slice Tool is also found under the Region Tooldropdown in the toolbar. Slices allow youto specify a specific region of the screen for export, even if they're not organized into a single group. Just drag a slice around the region you want to export...
                 </p>
-                <Button text={"Learn More"} btnClass={"btn-light-purple"}/>
+                <Button text={"Learn More"} btnClass={"btn-light-purple"} to={"/about"}/>
             </div>
         </div>
     </section>
