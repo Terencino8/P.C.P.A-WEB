@@ -1,5 +1,6 @@
 import React from 'react'
 import { Footer, Loginbar, Navbar } from './components'
+import Banner from './Banner_components/Banner'
 
 const About = () => {
   return (
@@ -8,7 +9,9 @@ const About = () => {
        <div className="header-bg-nav">
           <Loginbar/>
           <Navbar/>
+        <Banner title={"About Us"} sub={"About Us"}/>
        </div>
+
         
         <Footer/>
     </main>
