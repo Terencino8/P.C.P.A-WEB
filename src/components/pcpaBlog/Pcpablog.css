@@ -11,6 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .pcpablog-title{
@@ -34,7 +35,10 @@
 .pcpablog-title-big{
     font-size: 2.5rem;
     font-weight: 900;
-    color: var(--linear-text);
+    background-image: var(--linear-text);
+    background-clip: text;
+    color: transparent;
+    
 }
 
 .pcpablog-body{

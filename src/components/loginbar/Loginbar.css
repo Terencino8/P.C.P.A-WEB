@@ -22,6 +22,9 @@
 
 
 @media screen and (max-width:800px) {
+    .loginbar-bg{
+        width: 100vw;
+    }
     .loginbar-contact{
         width: 100%;
         justify-content: center;

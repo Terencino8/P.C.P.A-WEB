@@ -8,12 +8,12 @@ const BlogCard = ({src, title, para, date}) => {
     
   useEffect (() => {
     AOS.init({
-      duration: 1000,
+      duration: 2000,
     });
   }, [])
-  
+
   return (
-    <div className='blog-card'>
+    <div className='blog-card' data-aos="fade-down">
         <img src={src} alt="blog image" />
         <h1 className='blog-title u-title'>
            {title}

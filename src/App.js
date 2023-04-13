@@ -6,7 +6,7 @@ import "./css/utilis.css"
 
 function App() {
   return (
-    <main>
+    <main className='app-main'>
         <header className="header-bg">
             <div className="header-bg-nav">
                 <Loginbar/>
@@ -19,7 +19,7 @@ function App() {
         <Works/>
         <Quotesection2/>
         <Pcpablog/>
-        <Footer/>
+        <Footer/> 
 
 
 

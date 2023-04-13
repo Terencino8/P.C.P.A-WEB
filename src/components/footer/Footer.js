@@ -3,6 +3,7 @@ import "./Footer.css"
 import "../UI/button/Button.css"
 import {TiSocialGooglePlus} from "react-icons/ti"
 import {FaFacebookF, FaTwitter,FaInstagram} from "react-icons/fa";
+import { Link } from 'react-router-dom'
 
 
 import AOS from 'aos';
@@ -12,7 +13,7 @@ const Footer = () => {
 
     useEffect (() => {
         AOS.init({
-          duration: 1000,
+          duration: 2000,
         });
       }, [])
 
@@ -50,14 +51,16 @@ const Footer = () => {
             <div className="footer-links" data-aos="fade-down">
                 <h1 className="u-title">Links</h1>
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Addmissions</a></li>
-                    <li><a href="">Academics</a></li>
-                    <li><a href="">Gallery</a></li>
-                    <li><a href="">Contact Us</a></li>
-                    <li><a href="">Pcpa Blog</a></li>
-                </ul>
+        <li><Link to="/">HOME</Link></li>
+        <li><Link to="/about">ABOUT US</Link></li>
+        <li><Link to="/admissions">ADMISSIONS</Link></li>
+        <li><Link to="/calender">CALENDER</Link></li>
+        <li><Link to="/gallary">GALLERY</Link></li>
+        <li><Link to="/contact">CONTACT US</Link></li>
+        <li><Link to="/careers">CAREERS</Link></li>
+        <li><Link to="/Pcpa_Blog">P.C.P.A BLOG</Link></li>
+
+      </ul>
             </div>
                 <hr />
 
@@ -83,3 +86,5 @@ const Footer = () => {
 }
 
 export default Footer
+
+  
