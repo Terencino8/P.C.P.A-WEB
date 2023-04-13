@@ -1,0 +1,47 @@
+.aboutcard{
+    width: 30%;
+    padding: 2rem;
+}
+
+.aboutcard h1{
+    font-size: 6rem;
+    color: grey;
+    text-align: center;
+}
+
+.aboutcard .about-label{
+    font-size: 4rem;
+}
+
+.aboutcard h2{
+    width: 80%;
+}
+
+.aboutcard h2::after{
+    width: 40%;
+}
+
+.aboutcard .about-desc{
+    margin-top: 2rem;
+    text-align: justify;
+}
+
+
+@media screen and (max-width:800px) {
+    .aboutcard{
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .aboutcard .about-label{
+        font-size: 2rem;
+    }
+    .aboutcard h2::after{
+        width: 20%;
+        
+    }
+
+    .aboutcard .about-desc{
+        font-size: 1.3rem;
+    }
+}

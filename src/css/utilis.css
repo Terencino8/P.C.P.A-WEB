@@ -50,6 +50,12 @@
     border-radius: 5px;
   }
 
+  @media screen and (max-width:800) {
+    .u-text-small{
+      font-size: 1.3rem;
+    }
+  }
+
   
   
   
