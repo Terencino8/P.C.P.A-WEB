@@ -1,0 +1,81 @@
+.careers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.careers form{ 
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
+}
+
+
+.careers form input{
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    line-height: 1.4rem;
+    border-bottom: 2px solid var(--dark-brown);
+    background: none;
+    padding: 0.5rem;
+   
+}
+.careers form input:focus{
+    background-color: var(--light-brown);
+}
+
+.careers form label{
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
+
+input[type="file" i]{
+    width: 40%;
+}
+
+.textarea_btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+
+.textarea_btn textarea{
+    border: 2px solid var(--dark-brown);
+    width: 50%;
+    font-size: 1.6rem;
+    padding: 0.5rem;
+}
+
+.textarea_btn .btn-transparent-border:hover{
+    color: black;
+}
+
+
+@media screen and (max-width:800px) {
+    input[type="file" i]{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    
+    .careers form input{
+        font-size: 1.4rem;
+    }
+
+    .careers form{
+        width: 90%;
+    }
+
+    .textarea_btn{
+        flex-direction: column;
+    }
+
+    .textarea_btn textarea{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}

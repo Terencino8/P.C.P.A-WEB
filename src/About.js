@@ -4,7 +4,7 @@ import Banner from './Banner_components/Banner'
 import aboutImg from "./assets/aboutImg.png"
 import "./About.css"
 
-
+import aboutbanner from "./assets/aboutBanner.png"
 
 import Aboutcard from './Banner_components/about-card/Aboutcard'
 
@@ -26,7 +26,7 @@ const About = () => {
           <Navbar/>
        </div>
        <div className="navbar-seating"></div>
-       <Banner title={"About Us"} sub={"About Us"} />
+       <Banner title={"About Us"} sub={"About Us"} url={aboutbanner} />
        <div className="container about-c">
        <div className="about">
           <div className="about-left" data-aos="fade-right">
