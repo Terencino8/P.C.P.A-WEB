@@ -1,0 +1,164 @@
+.contact{
+    display: flex;
+    justify-content: space-around;
+    
+}
+ 
+.contact-view{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    background-color: rgba(179, 113, 97, 0.185);
+    border-radius: 30px;
+    margin: 2rem;
+    padding: 4rem;
+    flex-direction: column;
+}
+
+
+
+
+.contact h1{
+    position: relative;
+    padding-bottom: 0.3rem;
+    font-size: 3rem;
+
+}
+
+.contact h1::after{
+    content:"";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 30%;
+    height: 2px;
+    background-color: var(--dark-brown);
+    
+}
+
+.contact-view form{ 
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+
+.contact-view form input{
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    line-height: 1.4rem;
+    border-bottom: 2px solid var(--dark-brown);
+    background: none;
+    padding: 0.5rem;
+   
+}
+
+.contact form input:focus{
+    background-color: var(--light-brown);
+    border-radius: 10px 10px 0 0;
+}
+
+.contact form label{
+    margin-top: 4rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.6rem;
+}
+
+
+.contact-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contact textarea{
+    border: 2px solid var(--dark-brown);
+    width: 80%;
+    font-size: 1.6rem;
+    padding: 0.5rem;
+    background-color: transparent;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.contact .btn-transparent-border:hover{
+    color: black;
+
+}
+
+.contact .btn-transparent-border{
+    margin-bottom: 2rem;
+}
+
+
+.contact-address{
+    width: 35%;
+    display: flex;
+    justify-content: start;
+    background-color: rgba(179, 113, 97, 0.185);
+    border-radius: 30px;
+    margin: 2rem;
+    padding: 4rem;
+    flex-direction: column;
+}
+
+.address-desc{
+    font-size: 1.6rem;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;height: 50%;
+}
+
+
+.address-map{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+
+}
+.address-map img{
+    width: 90%;
+}
+
+
+
+
+
+
+@media screen and (max-width:800px) {
+    .contact{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-view{
+        width: 90%;
+    }
+    .contact-address{
+        width: 90%;
+
+    }
+    .contact-view h1{
+ 
+        font-size: 2.5rem;
+    
+    }
+    
+    .contact-view h1::after{
+        width: 40%;
+    }
+ 
+    
+    .contact textarea{
+        width: 90%;
+        font-size: 1.6rem;
+
+    }
+}
