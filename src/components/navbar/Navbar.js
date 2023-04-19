@@ -27,7 +27,7 @@ const Navbar = () => {
         <li><Link to="/gallary">GALLERY</Link></li>
         <li><Link to="/contact">CONTACT US</Link></li>
         <li><Link to="/careers">CAREERS</Link></li>
-        <li><Link to="/Pcpa_Blog">P.C.P.A BLOG</Link></li>
+        <li><Link to="/PcpaBlog">P.C.P.A BLOG</Link></li>
 
       </ul>
       <div className="nav-icons" onClick={toggleMenu}>

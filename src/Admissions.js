@@ -7,7 +7,7 @@ const Admissions = () => {
   return (
     <main>
        <div className="header-bg-nav">
-          <Loginbar/>
+       <Loginbar text={"Login / Signup"} to={"/login"}/>
           <Navbar/>
        </div>
        <div className="navbar-seating"></div>

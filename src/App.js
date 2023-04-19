@@ -9,7 +9,7 @@ function App() {
     <main className='app-main'>
         <header className="header-bg">
             <div className="header-bg-nav">
-                <Loginbar/>
+            <Loginbar text={"Login / Signup"} to={"/login"}/>
                 <Navbar/>
             </div>
             <Header/>

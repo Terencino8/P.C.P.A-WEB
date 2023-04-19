@@ -1,21 +1,32 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import "./Careers.css"
 import CareerBanner from "./assets/careersBanner.png"
 import { Footer, Loginbar, Navbar } from './components'
 import Banner from './Banner_components/Banner'
 import Button from './components/UI/button/Button'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+
 const Careers = () => {
+
+  useEffect (() => {
+    AOS.init({
+      duration: 1500,
+    });
+  }, [])
+
+
   return (
     <main>
        <div className="header-bg-nav">
-          <Loginbar/>
+       <Loginbar text={"Login / Signup"} to={"/login"}/>
           <Navbar/>
        </div>
        <div className="navbar-seating"></div>
        <Banner title={"Careers"} sub={"Careers"} url={CareerBanner}/>
        <div className="container careers">
-        <form action="">
+        <form action="" data-aos="fade-up">
             <label htmlFor="Firstname">First Name</label>
             <input type="text" placeholder='' id='Firstname'/>
             <label htmlFor="lastname">Last Name</label>

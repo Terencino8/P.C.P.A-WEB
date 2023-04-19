@@ -10,9 +10,12 @@ import Calender from './Calender';
 import Careers from './Careers';
 import Contact from './Contact';
 import Gallary from './Gallary';
-import Pcpa_Blog from './Pcpa_Blog';
+import PcpaBlog from './PcpaBlog';
+import Login from './components/login/Login';
+import SignUp from './components/login/SignUp';
 
 const router = createBrowserRouter([
+
   {
     path: "/",
     element:  <App />,
@@ -42,8 +45,16 @@ const router = createBrowserRouter([
     element:  <Gallary />,
   },
   {
-    path: "/Pcpa_Blog",
-    element:  <Pcpa_Blog />,
+    path: "/PcpaBlog",
+    element:  <PcpaBlog />,
+  },
+  {
+    path: "/login",
+    element:  <Login />,
+  },
+  {
+    path: "/signup",
+    element:  <SignUp />,
   },
 ]);
 

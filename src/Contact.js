@@ -1,15 +1,28 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { Footer, Loginbar, Navbar } from './components'
 import Banner from './Banner_components/Banner'
 import contactbanner from "./assets/contactBanner.png"
 import Button from './components/UI/button/Button'
 import "./Contact.css"
 import addressMap from "./assets/adressMap.png"
+
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+
 const Contact = () => {
+
+  
+  useEffect (() => {
+    AOS.init({
+      duration: 1500,
+    });
+  }, [])
+
+
   return (
     <main>
        <div className="header-bg-nav">
-          <Loginbar/>
+       <Loginbar text={"Login / Signup"} to={"/login"}/>
           <Navbar/>
        </div>
        <div className="navbar-seating"></div>
@@ -17,9 +30,9 @@ const Contact = () => {
         <div className="container contact">
 
           <div className=" contact-view">
-          <h1>Air Your View</h1>
+          <h1 data-aos="fade-down">Air Your View</h1>
 
-          <form action="">
+          <form action="" data-aos="fade-right">
                 <label htmlFor="Firstname">First Name</label>
                 <input type="text" placeholder='' id='Firstname'/>
                 <label htmlFor="lastname">Last Name</label>
@@ -34,15 +47,15 @@ const Contact = () => {
 
             </form>
 
-              <div className="contact-btn">
+              <div className="contact-btn" data-aos="fade-up">
               <Button text={"Submit"} btnClass={"btn-transparent-border"}/>
 
               </div>
           </div>
 
           <div className="contact-address">
-              <h1>Address</h1>
-              <div className="address-desc">
+              <h1 data-aos="fade-down">Address</h1>
+              <div className="address-desc" data-aos="fade-right">
                 <p className="contact-a-location">12/14 Inua Mohammed Street, Off Asa afariogun Street, Ajao Estate, Lagos State.</p>
                   <hr />
                 <p className="mail">Terencino8@gmail.com</p>
@@ -53,7 +66,7 @@ const Contact = () => {
               
               </div>
 
-              <div className="address-map">
+              <div className="address-map" data-aos="fade-up">
                   <img src={addressMap} alt="" />
 
               </div>

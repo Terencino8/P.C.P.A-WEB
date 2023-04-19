@@ -54,3 +54,9 @@ a.btn-red{
     color: var(--color-white);
    
 }
+
+a.btn-brown{
+    background: var(--dark-brown);
+    color: var(--color-white);
+   
+}
